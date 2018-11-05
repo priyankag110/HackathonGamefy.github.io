@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery Ajax Gallery Demo</title>
+    <link rel="stylesheet" href="css/reset.css" media="all"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" media="all"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="libs/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+    <style>
+        body  {
+            background-image: url("img/new1.jpg");
+
+        }
+    </style>
+</head>
+
+<body>
+
+	<section class="main">
+        <div class="container">
+            <h1 align="center" style="color: white">Maximum Owned, Age 12+ years(More Info.)
+                <a href="img/graphs/8a.png" class="info fancybox" rel="group" title="one">(1)</a>
+                <a href="img/graphs/8b.png" class="info fancybox" rel="group" title="one">(2)</a>
+            </h1>
+            <header class="main-header">
+                    <img style="display:none;" class="spinner" src="loader.gif" alt="loader"/>
+                    <a class="next btn btn-default" href="#">Load more</a>
+            </header>
+            <div class="gallery"></div>
+        </div>
+    </section>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="libs/fancybox/source/jquery.fancybox.js"></script>
+    <script src="js/app8.js"></script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
